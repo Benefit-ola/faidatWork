@@ -134,7 +134,7 @@ const Hero = () => {
     const top = el.getBoundingClientRect().top + window.scrollY - 80;
     window.scrollTo({ top, behavior: "smooth" });
   }}
-  className="px-7 py-3  bg-[#D63384] rounded-full border border-gray-300 text-gray-700 text-sm font-medium hover:border-[#D63384] hover:text-[#D63384] transition-all duration-300"
+  className="px-7 py-3  bg-[#D63384] rounded-full border border-gray-300 text-white text-sm font-medium hover:border-[#D63384] hover:text-[#D63384] transition-all duration-300"
 >
   See my work
 </button>
