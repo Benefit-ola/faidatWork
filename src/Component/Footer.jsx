@@ -5,8 +5,8 @@ import { ImWhatsapp } from "react-icons/im";
 
 const socialLinks = [
   { label: "LinkedIn", href: "https://linkedin.com/in/faidatolawuyi", icon: <FiLinkedin />, hoverColor: "hover:text-[#0A66C2]" },
-  { label: "GitHub",   href: "https://github.com/faidatolawuyi",      icon: <FaGithub />,  hoverColor: "hover:text-gray-100" },
-  { label: "Twitter",  href: "https://twitter.com/faidatolawuyi",     icon: <FaTwitter />, hoverColor: "hover:text-[#1DA1F2]" },
+  { label: "GitHub",   href: "https://github.com/Benefit-ola",      icon: <FaGithub />,  hoverColor: "hover:text-gray-100" },
+  { label: "Twitter",  href: "https://twitter.com/OFaidat98283",     icon: <FaTwitter />, hoverColor: "hover:text-[#1DA1F2]" },
   { label: "WhatsApp", href: "https://wa.me/23408143368795",           icon: <ImWhatsapp />,hoverColor: "hover:text-[#25D366]" },
 ];
 
