@@ -15,7 +15,7 @@ const projects = [
     tags: ["C Programming", "React", "Tailwind CSS", "Chart.js"],
     icons: [<TbBrandCpp color="#00599C" />, <SiReact color="#61DAFB" />, <SiTailwindcss color="#06B6D4" />],
     github: "https://github.com/Benefit-ola/c-programs-in-react.git",
-    live: "https://c-programs-in-react.vercel.app", // replace with your actual URL
+    live: "https://c-programs-in-react.vercel.app", 
     nda: false,
     category: ["React", "C Programming"],
     featured: true,
@@ -28,7 +28,7 @@ const projects = [
     tags: ["JavaScript", "React", "Tailwind CSS", "localStorage"],
     icons: [<SiJavascript color="#F7DF1E" />, <SiReact color="#61DAFB" />],
     github: "https://github.com/Benefit-ola/js-projects.git",
-    live: "https://js-projects-9255.vercel.app", // replace with your actual URL
+    live: "https://js-projects-9255.vercel.app",
     nda: false,
     category: ["JavaScript", "React"],
     featured: false,
@@ -40,11 +40,27 @@ const projects = [
     tags: ["React", "REST API", "React Router", "Tailwind CSS"],
     icons: [<SiReact color="#61DAFB" />, <SiJavascript color="#F7DF1E" />, <SiTailwindcss color="#06B6D4" />],
     github: "https://github.com/Benefit-ola/Recipes.git",
-    live: "https://recipes-uc2b.vercel.app", // replace with your actual URL
+    live: "https://recipes-uc2b.vercel.app", 
     nda: false,
     category: ["React"],
     featured: true,
   },
+{
+  title: "Doctor Portfolio",
+  description:
+    "A modern portfolio website for a General Practitioner, built with Next.js, TypeScript, and Tailwind CSS. Features include doctor profile, specialties, services, and an appointment booking contact form.",
+  tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+  icons: [
+    <SiNextdotjs color="#000000" />,
+    <SiTypescript color="#3178C6" />,
+    <SiTailwindcss color="#06B6D4" />,
+  ],
+  github: "https://github.com/Benefit-ola/Dr_portfolio.git",
+  live: null, // replace with your Vercel URL when deployed
+  nda: false,
+  category: ["Next.js", "TypeScript"],
+  featured: false,
+},
   {
     title: "Fashion E-Commerce App",
     description:
@@ -81,6 +97,7 @@ const projects = [
     category: ["Next.js", "TypeScript"],
     featured: true,
   },
+
 
 
 ];
